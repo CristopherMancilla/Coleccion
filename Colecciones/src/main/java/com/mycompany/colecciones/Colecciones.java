@@ -33,6 +33,11 @@ public class Colecciones {
         String materias2[]= new String[3];
         materias.toArray();
         
+        int[] lista2= new int[20];
+        lista2[0]= 10;
+        lista2[1]= 30;
+        lista2[2]= 50;
+        
         /* aplicacion del loop mejorado, sintaxis:
         for (tipoDato variable: coleccion) {
             //sentencias
