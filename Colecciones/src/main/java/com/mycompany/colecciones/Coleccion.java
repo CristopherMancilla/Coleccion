@@ -1,16 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
- */
-
-package com.mycompany.colecciones;
 
 import java.util.ArrayList;
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
 /**
+ *
  * @author Crsitopher Mancilla 
  */
-public class Colecciones {
-
+public class Coleccion {
+    
     public static void main(String[] args) {
         // creacion de un arreglo dinamico 
         ArrayList<Integer> muestra= new ArrayList();
@@ -55,11 +56,11 @@ public class Colecciones {
             System.out.println(materias.get(i));
         }
         
-        ArrayList<Integer> lista2= new ArrayList();
-        lista2.add(4);
-        lista2.add(6);
+        ArrayList<Integer> lista3= new ArrayList();
+        lista3.add(4);
+        lista3.add(6);
         
-        int lista3 []= {4, 6, 8, 9};
+        int lista4 []= {4, 6, 8, 9};
         System.out.println("");
         System.out.println(lista3.toString());
         
@@ -70,4 +71,5 @@ public class Colecciones {
         
             
     }
+
 }
